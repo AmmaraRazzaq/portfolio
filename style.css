@@ -1,0 +1,28 @@
+header {
+	font-style: Ariel, sans-serif;
+	background-color: #5e4a5a;
+	text-align: center;
+}
+
+main {
+	padding-top: 80px;
+}
+
+.margin {
+	margin: 20px;
+}
+
+.pm {
+	padding: 20px;
+	align-content: center;
+}
+
+.center {
+	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+}
+
+.textcenter {
+	text-indent: 1%;
+}

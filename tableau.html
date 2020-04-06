@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tableau</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    		<a class="navbar-brand" href="index.html">Ammara Razzaq</a>
+
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    		<span class="navbar-toggler-icon"></span>
+ 			 </button>
+
+    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="certificates.html">Certificates</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Me</a>
+					</li>
+				</ul>
+				
+			</div>
+  		</nav>
+  
+  	</div>
+
+  	<main>
+  		<!--- Content goes here -->
+  		<div class="container">
+  			<h1>Visualizing UAE Pollution Levels using Bayanat Dataset</h1>
+  			<p class="lead">Pollution levels are a key indicator of air quality. To visualize the air quality in UAE I decided to use the air pollution data of all emirates in UAE available on Bayanat Website. The dataset availabale on bayanat website can be downloaded <a href="https://data.bayanat.ae/en_GB/dataset/annual-average-of-sulfur-dioxide-so2-concentration-by-station">here.</a></p>
+
+  			<p class="lead">I visualized SO2 pollutant levels in UAE and their yearly trend across all emirates. This information will help analyze which areas need more pollution control. If some areas are showing improvement in air quality over the years, further research can be conducted to find out how air quality is improving in some areas and worsening in others. This information will help to control pollution in areas which are showing increase in pollution over time.</p>
+
+  			<p class="lead">Due to the interactive visualization feature in Tableau, it is easy to present more information in one visualization. In interactive visualizations, user can interect with the visualization and filter the specific information they want to visualize. In the figure below, average trend of SO2 pollutant levels across UAE is shown over the years. Additionally, average yearly trend for each emirate can be seen by clicking on the bar chart of an emirate.</p>
+
+  			<p class="lead">If we look at the yearly trend of two main emirates of UAE, i.e., Dubai and AbuDhabi, we will notice that the pollution levels for Dubai are increasing till 2013 and then started decreasing. On the other hand, in Abudhabi, pollution levels are decreasing till 2012 and then started increasing.</p>
+
+  		<div class='tableauPlaceholder' id='viz1584724038585' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SO2Analysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1584724038585');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+  		               </script>		
+
+  		
+  		<p class="lead mt-3">To look further into the dataset for Dubai and Abudhabi, I made another visualization that digs further into the pollution levels based on the type of location and the type of station. Here if we look at industrial locations, we will see that in Dubai the pollution levels have drastically decreased, however in Abu Dhabi pollution levels have significantly increased. Further the visualization shows that Warsan station in industrial area of Dubai has improved alot by decreasing pollution levels overtime. However, in Abu Dhabi, Al Mafraq and Mussafah stations have increased pollution levels overtime.</p>
+
+
+  		<div class='tableauPlaceholder' id='viz1584797248495' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SO2Analysis&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1584797248495');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+  		<div class="lead mt-3">Heatmaps are a great way to show the relative levels of pollution. Below is a heatmap of all locations. The heatmap can be filtered to show the levels of pollution for individual years by using the selection bar on the right side.</div>
+
+
+
+  		<div class='tableauPlaceholder' id='viz1584799323133' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SO2Analysis&#47;Dashboard4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SO&#47;SO2Analysis&#47;Dashboard4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1584799323133');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+  		<p class="lead mt-3"> Below is the screencast of the project that shows how to interact with visualization in order to see the selective information.</p>
+  			
+				
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					
+				</div>
+				<div class="col-lg-8">
+					<div class="embed-responsive embed-responsive-16by9 mt-3">
+  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R2Wom4wHB7M" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					
+				</div>
+			</div>
+		</div>
+
+		<p class="mt-3"></p>
+	</main>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
